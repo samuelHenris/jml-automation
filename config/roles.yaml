@@ -1,0 +1,32 @@
+# Role-to-access mapping. HR says who someone is; this file says what that means.
+# A user's groups = defaults + department groups + title groups.
+# Groups listed anywhere in this file are "managed": the tool may add and remove them.
+# Groups not listed here are never touched.
+defaults:
+  groups: [all-staff]
+
+departments:
+  Engineering:
+    groups: [eng-all, github-users]
+    titles:
+      Software Engineer: [dev-tools]
+      Security Engineer: [sec-tools, vpn-privileged]
+  Finance:
+    groups: [fin-all]
+    titles:
+      Financial Analyst: [fin-reporting]
+      Finance Manager: [fin-reporting, fin-approvals]
+  HR:
+    groups: [hr-all]
+    titles:
+      HR Specialist: [hris-access]
+  Sales:
+    groups: [sales-all]
+    titles:
+      Account Executive: [crm-users]
+      Sales Manager: [crm-users, crm-admins]
+  IT:
+    groups: [it-all]
+    titles:
+      Systems Administrator: [server-admins, vpn-privileged]
+      Helpdesk Technician: [helpdesk-tools]

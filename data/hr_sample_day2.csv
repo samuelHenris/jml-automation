@@ -1,0 +1,12 @@
+employee_id,first_name,last_name,email,department,title,status,end_date
+E1001,Aino,Korhonen,aino.korhonen@example.com,Engineering,Software Engineer,active,
+E1002,Mikko,Laine,mikko.laine@example.com,Engineering,Security Engineer,active,
+E1003,Sofia,Virtanen,sofia.virtanen@example.com,Finance,Financial Analyst,active,
+E1004,Jari,Nieminen,jari.nieminen@example.com,Finance,Financial Analyst,active,
+E1005,Elina,Makinen,elina.makinen@example.com,HR,HR Specialist,terminated,2026-10-09
+E1006,Antti,Heikkinen,antti.heikkinen@example.com,Sales,Account Executive,terminated,2026-12-31
+E1007,Laura,Koskinen,laura.koskinen@example.com,IT,Systems Administrator,active,
+E1008,Ville,Lehtonen,ville.lehtonen@example.com,Sales,Sales Manager,active,
+E1009,Hanna,Salonen,hanna.salonen@example.com,Finance,Finance Manager,active,
+E1010,Tuomas,Rantanen,tuomas.rantanen@example.com,IT,Helpdesk Technician,active,
+E1011,Noora,Hakala,noora.hakala@example.com,Engineering,Software Engineer,active,
